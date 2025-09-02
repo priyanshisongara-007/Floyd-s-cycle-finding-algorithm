@@ -11,7 +11,7 @@
  Another good solution:
  https://leetcode.com/problems/linked-list-cycle/solutions/7126201/java-100-spotting-the-snake-cycle/
  */
-public class Main {
+public class DetectTheLoopInLinkedList {
     public boolean hasCycle(ListNode head) {
         ListNode tortoise = head;
         ListNode hare = head;
