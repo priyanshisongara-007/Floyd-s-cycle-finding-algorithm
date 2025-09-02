@@ -1,2 +1,7 @@
 # Floyd-s-cycle-finding-algorithm
 This algorithm is an efficient method for detecting cycles in a linked list. It uses two pointers (often called the "tortoise" and the "hare") that traverse the data structure at different speeds: The tortoise moves one step at a time. The hare moves two steps at a time. If there is a cycle, the hare will eventually meet the tortoise inside theloop. This algorithm is also called "Fast-slow algorithm"
+
+Problems which can be solved using this algo:
+1.Detect the loop in Linkedlist
+2.Detect the element where the lopp starts.
+3.Detect the duplicate number in a list or array with O(1) space complexity
