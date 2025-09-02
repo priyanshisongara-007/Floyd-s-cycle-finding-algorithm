@@ -27,7 +27,7 @@ public class Main {
     }
 }
 
-//we can dolve this problem using a hashset to store the nodes we have seen so far. If we see a node again, then there is a cycle in the linked list. Otherwise, if we reach the end of the list (i.e., a null pointer), then there is no cycle.
+//we can solve this problem using a hashset to store the nodes we have seen so far. If we see a node again, then there is a cycle in the linked list. Otherwise, if we reach the end of the list (i.e., a null pointer), then there is no cycle.
 //but then there will be O(N) space complexity
 //the above solution is better because it uses O(1) space complexity and O(N) time complexity
 //this is called Floyd's Tortoise and Hare algorithm
